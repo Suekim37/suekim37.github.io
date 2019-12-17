@@ -1,6 +1,6 @@
 body {
   flex-flow: row wrap;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -25,7 +25,10 @@ h6{
   margin:0 auto;
   line-height:2rem;
   }
-  
+ 
+.mapboxgl-map{
+  height:90vh !important;
+}
 
 .font {
   font-family: 'Bebas Neue';
@@ -41,9 +44,8 @@ h6{
   align-items:left;
 }
 
-
 #map {
-  height: 600px;
+  height: 90vh;
   position: absolute;
   left: 25%;
   top: 0;
@@ -52,7 +54,7 @@ h6{
 }
 
 .map-overlay {
-  height: 600px;
+  height: 90vh;
   position: absolute;
   width: 25%;
   top: 0;
@@ -60,7 +62,7 @@ h6{
   left: 0;
   font: 12px/20px 'Roboto', Arial, Helvetica, sans-serif;
   background-color: #fff;
-  max-height: 100%;
+  
   /* overflow: hidden; */
 }
 
@@ -85,7 +87,7 @@ h6{
 
 .map-overlay .listing {
   overflow: auto;
-  max-height: 250px;
+  max-height: 45vh;
 }
 
 .map-overlay .listing>* {
@@ -111,12 +113,12 @@ h6{
 #emoji {
   position: absolute;
   margin: 0;
-  top: 320px;
+  top: 55vh;
   /* border: 1px black solid; */
   width: 25%;
   padding: 1rem 1.5rem;
   left: 0px;
-  height: 280px;
+  height: 35vh;
   background: #efefef;
   overflow:scroll;
   font-size: 0.9rem;
